@@ -12,11 +12,11 @@ function Header() {
     setProd(false);
     setRes(false);
     setSol(false);
-  }
+  };
 
   return (
     <>
-      <div className="Header" style={{marginBottom:"50px"}}>
+      <div className="Header" style={{ marginBottom: "50px" }}>
         <div className="HeaderItems">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +46,7 @@ function Header() {
             <div className="dropbtn items0">Prodcuts</div>
             <div className="dropdown-content">
               <a href="/products/Bold">Bold</a>
-              <a href="/prodcuts/Ahead">Ahead</a>
+              <a href="/products/Ahead">Ahead</a>
               <a href="/products/Metype">Metype</a>
               <a href="/products/Accesstype">Accesstype</a>
               <a href="/products/Content">Content Mobile Apps</a>
@@ -184,41 +184,120 @@ function Header() {
           </svg>
         </a>
         <section class="p-menu1">
-          <nav id="navbar" class="navigation" role="navigation" >
+          <nav id="navbar" class="navigation" role="navigation">
             <input id="toggle1" type="checkbox" />
-            <label class="hamburger1" for="toggle1"  onClick={() => setHam(!ham)}>
+            <label
+              class="hamburger1"
+              for="toggle1"
+              onClick={() => setHam(!ham)}
+            >
               <div class="top"></div>
               <div class="meat"></div>
               <div class="bottom"></div>
             </label>
 
-            <div className="menuContent" style={{display: ham ? "flex" : "none",marginTop:"20px"}}>
-              <a href="/Home" >Home</a>
-              <a  onClick={() => (clearState(), setProd(!prod))} style={{color:prod?"rgb(68,215,182)":null}}>Products</a>
-              <a href="/products/Bold" style={{display:prod ? "block" : "none"}}>Bold</a>
-              <a href="/products/Ahead" style={{display:prod ? "block" : "none"}}>Ahead</a>
-              <a href="/products/Metype" style={{display:prod ? "block" : "none"}}> Metype</a>
-              <a href="/products/Accesstype" style={{display:prod ? "block" : "none"}}>Accesstype</a>
-              <a href="/products/Content" style={{ display: prod ? "block" : "none" }}>Content Mobile Apps</a>
-              <hr style={{ display: prod ? "block" : "none" , width:"300px",margin:"auto",height:"0.1px"}}></hr>
-              <a  onClick={() => (clearState(), setRes(!res))} style={{color:res?"rgb(68,215,182)":null}}>Resources</a>
-              <a  style={{display:res ? "block" : "none"}}>Blog</a>
-              <a  style={{display:res ? "block" : "none"}}>Case Studies</a>
-              <a  style={{display:res ? "block" : "none"}}>Integrations</a>
-              <a  style={{display:res ? "block" : "none"}}>Essence</a>
+            <div
+              className="menuContent"
+              style={{ display: ham ? "flex" : "none", marginTop: "20px" }}
+            >
+              <a href="/Home">Home</a>
+              <a
+                onClick={() => (clearState(), setProd(!prod))}
+                style={{ color: prod ? "rgb(68,215,182)" : null }}
+              >
+                Products
+              </a>
+              <a
+                href="/products/Bold"
+                style={{ display: prod ? "block" : "none" }}
+              >
+                Bold
+              </a>
+              <a
+                href="/products/Ahead"
+                style={{ display: prod ? "block" : "none" }}
+              >
+                Ahead
+              </a>
+              <a
+                href="/products/Metype"
+                style={{ display: prod ? "block" : "none" }}
+              >
+                {" "}
+                Metype
+              </a>
+              <a
+                href="/products/Accesstype"
+                style={{ display: prod ? "block" : "none" }}
+              >
+                Accesstype
+              </a>
+              <a
+                href="/products/Content"
+                style={{ display: prod ? "block" : "none" }}
+              >
+                Content Mobile Apps
+              </a>
+              <hr
+                style={{
+                  display: prod ? "block" : "none",
+                  width: "300px",
+                  margin: "auto",
+                  height: "0.1px",
+                }}
+              ></hr>
+              <a
+                onClick={() => (clearState(), setRes(!res))}
+                style={{ color: res ? "rgb(68,215,182)" : null }}
+              >
+                Resources
+              </a>
+              <a style={{ display: res ? "block" : "none" }}>Blog</a>
+              <a style={{ display: res ? "block" : "none" }}>Case Studies</a>
+              <a style={{ display: res ? "block" : "none" }}>Integrations</a>
+              <a style={{ display: res ? "block" : "none" }}>Essence</a>
               <a style={{ display: res ? "block" : "none" }}>Guides</a>
               <a style={{ display: res ? "block" : "none" }}>Developer Docs</a>
               <a style={{ display: res ? "block" : "none" }}>Press Release</a>
               <a style={{ display: res ? "block" : "none" }}>Awards</a>
-              <hr style={{ display: res ? "block" : "none" , width:"300px",margin:"auto",height:"0.1px",color:"black"}}></hr>
-              <a  onClick={() => (clearState(), setSol(!sol))} style={{color:sol?"rgb(68,215,182)":null}}>Solutions</a>
-              <a  style={{display:sol ? "block" : "none"}}>New and Modern Publishers</a>
-              <a  style={{display:sol ? "block" : "none"}}>Magazine Publishers</a>
-              <a  style={{display:sol ? "block" : "none"}}>To Increase Traffic</a>
-              <a  style={{display:sol ? "block" : "none"}}>Monetize your content</a>
+              <hr
+                style={{
+                  display: res ? "block" : "none",
+                  width: "300px",
+                  margin: "auto",
+                  height: "0.1px",
+                  color: "black",
+                }}
+              ></hr>
+              <a
+                onClick={() => (clearState(), setSol(!sol))}
+                style={{ color: sol ? "rgb(68,215,182)" : null }}
+              >
+                Solutions
+              </a>
+              <a style={{ display: sol ? "block" : "none" }}>
+                New and Modern Publishers
+              </a>
+              <a style={{ display: sol ? "block" : "none" }}>
+                Magazine Publishers
+              </a>
+              <a style={{ display: sol ? "block" : "none" }}>
+                To Increase Traffic
+              </a>
+              <a style={{ display: sol ? "block" : "none" }}>
+                Monetize your content
+              </a>
               <a style={{ display: sol ? "block" : "none" }}>For Developers</a>
-              <hr style={{ display: sol ? "block" : "none", width: "300px", margin: "auto", height: "0.1px", color: "black" }}></hr>
-              <a href="/Demo" >Schedule Demo</a>
+              <hr
+                style={{
+                  display: sol ? "block" : "none",
+                  width: "300px",
+                  margin: "auto",
+                  height: "0.1px",
+                  color: "black",
+                }}
+              ></hr>
+              <a href="/Demo">Schedule Demo</a>
             </div>
           </nav>
         </section>
