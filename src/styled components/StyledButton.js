@@ -7,7 +7,7 @@ const StyledButton = styled.button`
     border: 1px solid rgb(68, 215, 182);
     background-color: ${(props) => props.backgroundColor || "transparent"};
     color: ${(props) => props.textColor || "black"};
-    margin-right:10px;
+    margin-right:${(props) => props.mright || "10px"};
     height:90%;
     font-size:18px;
     padding: 0 40px;

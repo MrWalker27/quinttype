@@ -5,7 +5,7 @@ const StyledSmallContainer = styled.div`
   width: 1140px;
   margin: auto;
   margin-top: 50px;
-  background-color: #f4faf9;
+  background-color:${(props) => (props.backColour || "#f4faf9")};
   padding: 24px;
   padding-left: 115px;
   display: grid;
@@ -21,6 +21,7 @@ const StyledSmallContainer = styled.div`
     padding: 0px;
     padding-top: 50px;
     margin-top: -30px;
+    margin-bottom: ${(props) => props.mmbot ? `${props.mmbot}px` : "0px"};
   }
 `;
 

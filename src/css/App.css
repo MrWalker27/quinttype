@@ -1,0 +1,5 @@
+.image{
+    @media (max-width: 375px) {
+        display:none;
+    }
+}

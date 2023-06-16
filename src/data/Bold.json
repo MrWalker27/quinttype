@@ -1,0 +1,169 @@
+{
+    "Section1": {
+        "Heroimage1": "https://gumlet.assettype.com/quintype-website/2019-11/23e1f88f-a05f-4b44-ad19-b98eac4de35a/bold.svg?w=768&dpr=1.0",
+        "Header1": "BOLD",
+        "Header2": "A headless CMS that understands your content.",
+        "Subheader1": "Digital publishing has been stuck in the Dark Ages. Be successful in the modern media space with Bold CMS - An empowering solution to create, curate, distribute content effortlessly. Starting at $100/month* (based on bandwidth, additional setup fee)",
+        "Button1": "Start Free Trial",
+        "Button2": "Watch Demo",
+        "Heroimage2": "https://gumlet.assettype.com/quintype-website/2019-12/a2afb724-7961-4de1-8941-35633e7a1f8f/Bold_Product_page.svg?w=576&dpr=1.0"
+    },
+    "Section2": {
+        "arr":[
+            {
+                "Heroimage1": "https://gumlet.assettype.com/quintype-website/2022-09/a54010e0-3958-4049-ba67-1c43d4e461d6/BOLD_Workspace.png?w=376&dpr=2.0",
+                "Header1": "Organized workspace and rich editing experience.",
+                "Header2": "Live Preview",
+                "Subheader1": "See how your content looks before you publish it. Live. As you create it.",
+                "Header3": "Content Collections",
+                "Subheader2": "Go beyond sections and tags and organize content with automations and rules.",
+                "Button1": "Start Free Trial"
+            },
+            {
+                "Heroimage1": "https://gumlet.assettype.com/quintype-website/2022-09/8fa6adcd-f72d-401a-a4a5-6d99a870450d/BOLD_SEO.png?w=640&dpr=1.0",
+                "Header1": "Create once, publish anywhere.",
+                "Header2": "Omni-channel Distribution",
+                "Subheader1": "Your content is ready to be discovered across search, social, mobile and voice devices with configurable settings for each distribution channel.",
+                "Header3": "Better SEO",
+                "Subheader2": "It is no longer just meta. Get blazing fast load times, AMP, beat lighthouse benchmarks and validate your on-page SEO within our editor.",
+                "Button1": "Start Free Trial"
+            },
+            {
+                "Heroimage1": "https://gumlet.assettype.com/quintype-website/2022-09/7b39d914-1d04-4d69-a3bd-83eab3026232/BOLD_Analytics.png?w=640&dpr=1.0",
+                "Header1": "Deliver better digital experiences.",
+                "Header2": "In-depth Analytics",
+                "Subheader1": "Augment your existing analytics stack with relevant first-party data about your content and audience so that you can make smarter decisions.",
+                "Header3": "Personalization",
+                "Subheader2": "Match your audience with your best content with our machine-learning algorithms that deliver the right pieces of content to the right reader.",
+                "Button1": "Start Free Trial"
+            }
+        ]
+        
+    },
+    "Section3": {
+        "Header": "All the content liberation tools you have wished for. And, all those you haven’t yet.",
+        "Cards": [
+            {
+                "Title":"Better Media Delivery",
+                "Text" :"No more awkwardly cropped images on different screens!"
+            },
+            {
+                "Title":"Live Blogging",
+                "Text" :"Update stories in real-time and automatically reverse order on completion."
+            },
+            {
+                "Title":"Teams",
+                "Text" :"Create teams of authors with access to specific sections."
+            },
+            {
+                "Title":"Geo Tagging",
+                "Text" :"Organize stories based on locations."
+            },
+            {
+                "Title":"Customizable Workflows",
+                "Text" :"Make Bold work for your current newsroom workflow!"
+            },
+            {
+                "Title":"Efficient Categorization",
+                "Text" :"Organize content with tags, attributes, entities and sections."
+            },
+            {
+                "Title":"SEO Validations",
+                "Text" :"Validate your on-page SEO with our recommendations."
+            },
+            {
+                "Title":"Multi-lingual Support",
+                "Text" :"Supports over 150+ international languages"
+            }
+        ]
+    },
+    "Section4":{
+        "Heading":"PRICING",
+        "Body":"Quintype wants to give you the freedom to publish sans the tech hiccups. We have a suite of products to take care of every tiny detail. Yes, every! Now, unleashing the power of content is in your hands.",
+        "Cat1":"Bold CMS",
+        "Cat1H":"From $100/month*",
+        "Cat1A":[
+            {
+                "point":"Ahead Page Builder included"
+            },
+            {
+                "point":"Unlimited Content"
+            },
+            {
+                "point":"Unlimited Users"
+            },
+            {
+                "point":"99.95% uptime"
+            },
+            {
+                "point":"Secure Hosting on AWS Cloud"
+            },
+            {
+                "point":"Daily Backups"
+            },
+            {
+                "point":"Content Analytics"
+            },
+            {
+                "point":"* Pricing based on bandwidth"
+            },
+            {
+                "point":"* Additional setup fee"
+            }
+        ],
+        "Cat2":"Enterprise",
+        "Cat2H":"Custom",
+        "Cat2A":[
+            {
+                "point":"Bold CMS plus"
+            },
+            {
+                "point":"Custom Front-end Design"
+            },
+            {
+                "point":"Native CDN Integration"
+            },
+            {
+                "point":"DDoS Protection"
+            },
+            {
+                "point":"Custom Integrations"
+            },
+            {
+                "point":"Auto Scaling Infrastructure"
+            },
+            {
+                "point":"Dedicated Account Manager"
+            },
+            {
+                "point":"Front-end Code Samples"
+            },
+            {
+                "point":"Page Load Optimization"
+            },
+            {
+                "point":"API Documentation"
+            }
+            ,
+            {
+                "point":"24/7 Support"
+            }
+            ,
+            {
+                "point":"WCAG 2.0 Support and more"
+            }
+        ],
+        "Button":"Get Quote"
+    },
+    "Section5": {
+        "Header1":"“We used the headless CMS to launch our digital platform in 2016. From CMS to paywall solutions, Quintype manages the full tech stack for us. The platform is easy to use and customize for our requirements.”",
+        "Writer":"Amarnath Govindarajan, Digital Head",
+        "Image":"https://gumlet.assettype.com/quintype-website/2019-12/db2d7899-378b-4c89-aac3-f6b52163ea8c/swarajya_29.svg?w=480&dpr=1.0",
+        "Header2":"Fully Managed SaaS CMS",
+        "Text2":"Updates, automations, backups are all taken care of on your behalf.",
+        "Header3":"API-first Headless CMS",
+        "Text3":"Our well documented REST APIs provides you with total control on the front-end.",
+        "Header4":"Secure Enterprise Cloud",
+        "Text4":"Complete with DDoS protection, SSL, caching and auto-scaling infrastructure."
+    }
+}
